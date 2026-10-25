@@ -19,3 +19,5 @@
 1. Copiar las carpetas PPMI, Sarcoma y T2 dentro de una carpeta llamada datos.
 2. Instalar las librerias: pip install pydicom opencv-python matplotlib numpy
 3. Ejecutar: py main.py
+## Clase VolumenDicom
+Carga una carpeta DICOM y guarda como atributos las filas, columnas, nombre del paciente, modalidad, tamano del voxel en mm y la matriz de pixeles. Escala cada corte al doble de su tamano y reconstruye el volumen 3D.
