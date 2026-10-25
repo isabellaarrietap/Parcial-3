@@ -10,3 +10,8 @@
 - opencv-python
 - numpy
 - matplotlib
+## Estructura del proyecto
+- clases.py: clases VolumenDicom y GestorImagenes.
+- main.py: menu de uso e implementacion.
+- resultados/: graficos e imagenes generados.
+- datos/: carpetas PPMI, Sarcoma y T2 (no se suben a GitHub).
