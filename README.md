@@ -15,3 +15,7 @@
 - main.py: menu de uso e implementacion.
 - resultados/: graficos e imagenes generados.
 - datos/: carpetas PPMI, Sarcoma y T2 (no se suben a GitHub).
+## Como ejecutar
+1. Copiar las carpetas PPMI, Sarcoma y T2 dentro de una carpeta llamada datos.
+2. Instalar las librerias: pip install pydicom opencv-python matplotlib numpy
+3. Ejecutar: py main.py
