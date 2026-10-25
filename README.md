@@ -21,3 +21,5 @@
 3. Ejecutar: py main.py
 ## Clase VolumenDicom
 Carga una carpeta DICOM y guarda como atributos las filas, columnas, nombre del paciente, modalidad, tamano del voxel en mm y la matriz de pixeles. Escala cada corte al doble de su tamano y reconstruye el volumen 3D.
+## Metodo corregirAngulo
+Recibe un angulo en grados, calcula la matriz de rotacion tomando como centro el punto medio de la imagen, aplica la transformacion a todos los cortes y guarda el resultado como atributo del objeto.
