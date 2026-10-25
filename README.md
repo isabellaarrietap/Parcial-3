@@ -25,3 +25,5 @@ Carga una carpeta DICOM y guarda como atributos las filas, columnas, nombre del 
 Recibe un angulo en grados, calcula la matriz de rotacion tomando como centro el punto medio de la imagen, aplica la transformacion a todos los cortes y guarda el resultado como atributo del objeto.
 ## Metodo ecualizarCorte
 Copia el volumen, normaliza a uint8 el corte elegido por el usuario y lo ecualiza. Grafica los histogramas y la imagen ecualizada, y guarda el grafico y la imagen en la carpeta resultados.
+## Metodo segmentarCorte
+Binariza y umbraliza un corte sagital, coronal o transversal elegido por el usuario para segmentar huecos anatomicos. Aplica una apertura con kernel e iteraciones definidos por el usuario, dibuja un circulo sobre la zona de interes y calcula su area en mm2 con connectedComponents de OpenCV. Grafica y guarda la imagen resultante.
