@@ -23,3 +23,5 @@
 Carga una carpeta DICOM y guarda como atributos las filas, columnas, nombre del paciente, modalidad, tamano del voxel en mm y la matriz de pixeles. Escala cada corte al doble de su tamano y reconstruye el volumen 3D.
 ## Metodo corregirAngulo
 Recibe un angulo en grados, calcula la matriz de rotacion tomando como centro el punto medio de la imagen, aplica la transformacion a todos los cortes y guarda el resultado como atributo del objeto.
+## Metodo ecualizarCorte
+Copia el volumen, normaliza a uint8 el corte elegido por el usuario y lo ecualiza. Grafica los histogramas y la imagen ecualizada, y guarda el grafico y la imagen en la carpeta resultados.
